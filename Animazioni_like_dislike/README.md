@@ -1,4 +1,4 @@
-# esercizio3
+![alt text](animazioni_like_dislike.jpg)# esercizio3
 
 A new Flutter project.
 
