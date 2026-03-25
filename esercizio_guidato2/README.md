@@ -1,3 +1,4 @@
+<img width="1915" height="905" alt="immagine" src="https://github.com/user-attachments/assets/0d7b36b0-71ad-48be-aee3-f78bef4d2fac" />
 # esercizio_guidato2
 
 A new Flutter project.
