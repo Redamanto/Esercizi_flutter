@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "467530899143",
+    "project_id": "esercizio-guidato",
+    "storage_bucket": "esercizio-guidato.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467530899143:android:d66f6087afad4e1d5628e2",
+        "android_client_info": {
+          "package_name": "com.example.esercizio_guidato"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACT-wogAap5wGdRjhnnhk7uSS2x8nYvq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
