@@ -36,7 +36,6 @@ class _InfoTourPageState extends State<InfoTourPage> {
               ),
               const SizedBox(height: 20),
 
-              // Campo Email con validazione
               TextFormField(
                 controller: _emailController,
                 decoration: const InputDecoration(
@@ -49,7 +48,7 @@ class _InfoTourPageState extends State<InfoTourPage> {
                   if (value == null || value.isEmpty) {
                     return "L'email è obbligatoria";
                   }
-                  // Regex per formato email standard
+
                   if (!RegExp(
                     r"^[a-zA-Z0-9.a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9]+\.[a-zA-Z]+",
                   ).hasMatch(value)) {
@@ -80,7 +79,7 @@ class _InfoTourPageState extends State<InfoTourPage> {
               // Pulsante Invia
               ElevatedButton(
                 onPressed: () {
-                  // Se il form è valido, mostriamo la conferma
+                  // Se il form è valido, mostro la conferma
                   if (_formKey.currentState!.validate()) {
                     ScaffoldMessenger.of(context).showSnackBar(
                       const SnackBar(

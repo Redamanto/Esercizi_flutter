@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http; // Importazione necessaria
 import 'dart:convert'; // Per convertire i dati in JSON
 
-// --- 1. SCHERMATA PRINCIPALE ---
 class CittaDelNord extends StatefulWidget {
   const CittaDelNord({super.key});
 
@@ -198,7 +197,6 @@ class _CittaDelNordState extends State<CittaDelNord> {
   }
 }
 
-// --- 2. WIDGET CUORE ANIMATO ---
 class FavoriteIcon extends StatefulWidget {
   final bool isFavorite;
   final VoidCallback onTap;
